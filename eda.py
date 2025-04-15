@@ -17,7 +17,7 @@ print("Descriptive Statistics:")
 print(df.describe(include="all"), "\n")
 
 # Gender distribution
-print("👫 Gender Distribution:")
+print("Gender Distribution:")
 print(df['Gender'].value_counts(), "\n")
 
 # Department distribution
